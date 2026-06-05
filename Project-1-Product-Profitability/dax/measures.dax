@@ -1,0 +1,22 @@
+-- Total Revenue
+Total Revenue :=
+SUM ( Sales[Revenue] )
+
+-- Units Sold
+Units Sold :=
+SUM ( Sales[Quantity] )
+
+-- Gross Profit
+Gross Profit :=
+SUMX (
+    Sales,
+    Sales[Revenue] - Sales[COGS]
+)
+
+-- Margin %
+Margin % :=
+DIVIDE ( [Gross Profit], [Total Revenue] )
+
+-- Average Order Value (AOV)
+AOV :=
+DIVIDE ( [Total Revenue], DISTINCTCOUNT ( Sales[OrderID] ) )
