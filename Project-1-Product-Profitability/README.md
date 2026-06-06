@@ -1,37 +1,140 @@
-Product Profitability Analysis
+📊 Product Profitability Analysis
+A Power BI project analyzing revenue, margin, discount impact, and month‑over‑month performance.
+
 📌 Overview
-This project analyzes product‑level profitability using transactional sales data.
-It demonstrates data modeling, DAX measure creation, and business‑focused insight generation.
+This project analyzes product‑level profitability using sales, product, and calendar data.
+It explores how pricing, discounts, and cost structure affect:
 
-📊 Live Dashboard
-(Insert your Publish‑to‑Web link here)
+Revenue
 
+Gross profit
 
-🧠 Key Measures:
+Margin %
+
+Margin erosion
+
+Month‑over‑month performance
+
+The report is built in Power BI Desktop, using a star schema and a clean set of reusable DAX measures.
+
+🎯 Business Questions Answered
+Which products generate the highest revenue and profit?
+
+How do discounts impact margin and profitability?
+
+What is the average order value (AOV)?
+
+How does revenue change month‑over‑month?
+
+Which products experience the most margin erosion?
+
+How many items are sold per product category?
+
+🧱 Data Model
+This project uses a star schema with the following tables:
+
+Fact Table
+
+Order Items
+
+Dimension Tables
+
+Products
+
+Calendar
+
+Customer
+
+Orders
+
+Relationships follow a standard one‑to‑many pattern, with Calendar[Date] driving all time‑intelligence measures.
+
+📐 Key Metrics
+This report includes metrics such as:
+
+Revenue (before and after discount)
 
 Gross Profit
 
 Margin %
 
-Average Order Value (AOV)
+Margin Erosion & Margin Erosion %
 
-Total Revenue
+Average Unit Price / Net Price
 
-Units Sold
+AOV (Average Order Value)
 
+MoM Change & MoM % Change
 
-🧩 Data Model:
+Items Sold
 
-Fact table: Sales
+Orders
 
-Dimension tables: Product, Date, Customer
+All DAX measures are documented in the MEASURES.md file.
 
-Star schema with one-to-many relationships
+👉 See full DAX documentation:  
+[Looks like the result wasn't safe to show. Let's switch things up and try something else!]
 
-📈 Insights Delivered:
+📁 Folder Structure
+Code
+Project-1-Product-Profitability/
+│
+├── README.md                ← You are here
+├── MEASURES.md              ← Full DAX documentation
+│
+├── dax/
+│   └── measures.dax         ← Raw DAX formulas (optional)
+│
+├── model/
+│   └── star-schema.png      ← Data model diagram
+│
+├── report/
+│   ├── Product-Profitability.pbix   ← Power BI file (optional)
+│   └── screenshots/
+│       ├── overview.png
+│       ├── product-details.png
+│       └── margin-analysis.png
+│
+└── notes/
+    ├── business-logic.md
+    ├── metric-definitions.md
+    └── data-dictionary.md
+🖼️ Report Screenshots
+Add screenshots of your Power BI report here:
 
-Identified top‑margin product categories
+Overview page
 
-Highlighted underperforming SKUs
+Product profitability page
 
-Provided pricing and inventory recommendations
+Margin erosion analysis
+
+MoM performance
+
+These help recruiters quickly understand your work.
+
+🔧 How to Reproduce This Project
+Download the .pbix file (if included)
+
+Review the data model in /model/star-schema.png
+
+Explore the DAX measures in MEASURES.md
+
+Open the report in Power BI Desktop
+
+Refresh the model (if using local data)
+
+📝 Technologies Used
+Power BI Desktop
+
+DAX
+
+Power Query
+
+Star Schema Modeling
+
+Data Visualization & Storytelling
+
+👤 Author
+Erin Wheatley  
+Business Intelligence Analyst
+GitHub Portfolio Project
