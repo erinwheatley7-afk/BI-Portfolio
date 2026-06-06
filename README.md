@@ -1,4 +1,4 @@
-📊 Erin Wheatley — Business Intelligence Portfolio
+## 📊 **Erin Wheatley — Business Intelligence Portfolio**
 
 Welcome to my BI portfolio.
 I specialize in transforming raw data into clear, actionable insights using Power BI, SQL, DAX, and modern data modeling practices.
@@ -29,7 +29,7 @@ Business Analysis
 
 Each project demonstrates real‑world BI skills including star schema design, metric creation, data storytelling, and analytical problem‑solving.
 ________________________________________________________________________________________________________________________________________
-🚀 Featured Projects
+## 🚀 **Featured Projects**
 
 1. Product Profitability Analysis (Power BI)
 
@@ -62,9 +62,9 @@ Report screenshots:
 📁 Folder: Project-1-Product-Profitability/
 ______________________________________________________________________________________________________________________________________
 
-🧠 Skills & Tools
+## 🧠 **Skills & Tools**
 
-Business Intelligence:
+### **Business Intelligence**
 
 Power BI Desktop
 
@@ -78,7 +78,7 @@ KPI & Metric Design
 
 Data Storytelling
 
-Data:
+### **Data**
 
 SQL (CTEs, joins, aggregations)
 
@@ -86,7 +86,7 @@ Data cleaning & transformation
 
 Dimensional modeling
 
-Technical:
+### **Technical**
 
 Git & GitHub
 
@@ -114,7 +114,7 @@ BI-Portfolio/
 └── (Future projects will be added here)
 _________________________________________________________________________________________________________________________________________________
 
-🎯 What This Portfolio Demonstrates:
+## 🎯 **What This Portfolio Demonstrates**
 
 Ability to design and build complete BI solutions
 
@@ -127,8 +127,9 @@ Clear documentation and communication
 Professional GitHub project structure
 
 End‑to‑end analytical thinking
+_________________________________________________________________________________________________________________________________
 
-👤 About Me
+## 👤 **About Me**
 
 I’m Erin Wheatley — a Business Intelligence Analyst with experience in:
 
@@ -145,7 +146,8 @@ Turning messy data into clear insights
 I’m currently building a polished BI portfolio to re‑enter the workforce and showcase my technical and analytical strengths.
 
 
-📬 Contact
+## 📬 **Contact**
+
 LinkedIn: https://www.linkedin.com/in/erinwheatley/
 
 Email: erinwheatley7@gmail.com
