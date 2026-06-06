@@ -1,81 +1,88 @@
 📊 Product Profitability Analysis
+
 A Power BI project analyzing revenue, margin, discount impact, and month‑over‑month performance.
 
 📌 Overview
+
 This project analyzes product‑level profitability using sales, product, and calendar data.
 It explores how pricing, discounts, and cost structure affect:
 
-Revenue
+-Revenue
 
-Gross profit
+-Gross profit
 
-Margin %
+-Margin %
 
-Margin erosion
+-Margin erosion
 
-Month‑over‑month performance
+-Month‑over‑month performance
 
 The report is built in Power BI Desktop, using a star schema and a clean set of reusable DAX measures.
+___________________________________________________________________________________________________________________
 
 🎯 Business Questions Answered
-Which products generate the highest revenue and profit?
 
-How do discounts impact margin and profitability?
+(1) Which products generate the highest revenue and profit?
 
-What is the average order value (AOV)?
+(2) How do discounts impact margin and profitability?
 
-How does revenue change month‑over‑month?
+(3) What is the average order value (AOV)?
 
-Which products experience the most margin erosion?
+(4) How does revenue change month‑over‑month?
 
-How many items are sold per product category?
+(5) Which products experience the most margin erosion?
+
+(6) How many items are sold per product category?
+___________________________________________________________________________________________________________________
 
 🧱 Data Model
+
 This project uses a star schema with the following tables:
 
-Fact Table
+Fact Table:
 
-Order Items
+-Order Items
 
-Dimension Tables
+Dimension Tables:
 
-Products
+-Products
 
-Calendar
+-Calendar
 
-Customer
+-Customer
 
-Orders
+-Orders
 
 Relationships follow a standard one‑to‑many pattern, with Calendar[Date] driving all time‑intelligence measures.
+________________________________________________________________________________________________________________________
 
 📐 Key Metrics
+
 This report includes metrics such as:
 
-Revenue (before and after discount)
+-Revenue (before and after discount)
 
-Gross Profit
+-Gross Profit
 
-Margin %
+-Margin %
 
-Margin Erosion & Margin Erosion %
+-Margin Erosion & Margin Erosion %
 
-Average Unit Price / Net Price
+-Average Unit Price / Net Price
 
-AOV (Average Order Value)
+-AOV (Average Order Value)
 
-MoM Change & MoM % Change
+-MoM Change & MoM % Change
 
-Items Sold
+-Items Sold
 
-Orders
+-Orders
 
 All DAX measures are documented in the MEASURES.md file.
-
-👉 See full DAX documentation:  
-[Looks like the result wasn't safe to show. Let's switch things up and try something else!]
+_______________________________________________________________________________________________________________________________
 
 📁 Folder Structure
+
 Code
 Project-1-Product-Profitability/
 │
@@ -99,20 +106,16 @@ Project-1-Product-Profitability/
     ├── business-logic.md
     ├── metric-definitions.md
     └── data-dictionary.md
+______________________________________________________________________________________________________________________________________
+    
 🖼️ Report Screenshots
+
 Add screenshots of your Power BI report here:
+______________________________________________________________________________________________________________________________________
 
-Overview page
-
-Product profitability page
-
-Margin erosion analysis
-
-MoM performance
-
-These help recruiters quickly understand your work.
 
 🔧 How to Reproduce This Project
+
 Download the .pbix file (if included)
 
 Review the data model in /model/star-schema.png
@@ -122,8 +125,10 @@ Explore the DAX measures in MEASURES.md
 Open the report in Power BI Desktop
 
 Refresh the model (if using local data)
+______________________________________________________________________________________________________________________________________
 
 📝 Technologies Used
+
 Power BI Desktop
 
 DAX
@@ -133,8 +138,12 @@ Power Query
 Star Schema Modeling
 
 Data Visualization & Storytelling
+______________________________________________________________________________________________________________________________________
 
 👤 Author
-Erin Wheatley  
+
+Erin Wheatley 
+
 Business Intelligence Analyst
+
 GitHub Portfolio Project
