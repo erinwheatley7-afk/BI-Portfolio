@@ -115,10 +115,18 @@ Project-1-Product-Profitability/
     ├── metric-definitions.md
     └── data-dictionary.md
 ______________________________________________________________________________________________________________________________________
-    
-## 🖼️ **Report Screenshots**
 
-Add screenshots of your Power BI report here:
+## 🖼️ Report Screenshots
+
+### 📄 Product Profitability — Main Report
+![Product Profitability Main](reports/screenshots/Product%20Profitability%20Main.png)
+
+### 🔧 Product Profitability — Accessories (Top 10, 2025)
+![Product Profitability Accessories 2025 Top 10](reports/screenshots/Product%20Profitability%20Accessories%202025%20Top%2010.png)
+
+### 🚵 Product Profitability — Mountain Bikes (Top 10, 2025)
+![Product Profitability Mountain Bikes 2025 Top 10](reports/screenshots/Product%20Profitability%20Mountain%20Bikes%202025%20Top%2010.png)
+
 ______________________________________________________________________________________________________________________________________
 
 
