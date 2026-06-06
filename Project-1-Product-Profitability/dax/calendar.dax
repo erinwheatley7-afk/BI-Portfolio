@@ -1,0 +1,16 @@
+Fiscal Month Num =
+IF (
+    'Calendar'[Month Number] > 6,
+    'Calendar'[Month Number] - 6,
+    'Calendar'[Month Number] + 6
+)
+
+Fiscal Month =
+'Calendar'[Month]
+
+Fiscal Year =
+IF (
+    'Calendar'[Month Number] > 6,
+    'Calendar'[Year] + 1,
+    'Calendar'[Year]
+)
