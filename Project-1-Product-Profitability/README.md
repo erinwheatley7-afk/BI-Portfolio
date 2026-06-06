@@ -1,8 +1,8 @@
-📊 Product Profitability Analysis
+## 📊 **Product Profitability Analysis**
 
 A Power BI project analyzing revenue, margin, discount impact, and month‑over‑month performance.
 
-📌 Overview
+## 📌 **Overview**
 
 This project analyzes product‑level profitability using sales, product, and calendar data.
 It explores how pricing, discounts, and cost structure affect:
@@ -20,7 +20,7 @@ It explores how pricing, discounts, and cost structure affect:
 The report is built in Power BI Desktop, using a star schema and a clean set of reusable DAX measures.
 ___________________________________________________________________________________________________________________
 
-🎯 Business Questions Answered
+## 🎯 **Business Questions Answered**
 
 (1) Which products generate the highest revenue and profit?
 
@@ -35,7 +35,7 @@ ________________________________________________________________________________
 (6) How many items are sold per product category?
 ___________________________________________________________________________________________________________________
 
-🧱 Data Model
+## 🧱 **Data Model**
 
 This project uses a star schema with the following tables:
 
@@ -56,7 +56,7 @@ Dimension Tables:
 Relationships follow a standard one‑to‑many pattern, with Calendar[Date] driving all time‑intelligence measures.
 ________________________________________________________________________________________________________________________
 
-📐 Key Metrics
+## 📐 **Key Metrics**
 
 This report includes metrics such as:
 
@@ -81,7 +81,15 @@ This report includes metrics such as:
 All DAX measures are documented in the MEASURES.md file.
 _______________________________________________________________________________________________________________________________
 
-📁 Folder Structure
+### 📅 Calendar Table (DAX)
+
+This project includes a custom Calendar table with fiscal logic (fiscal year begins in July).  
+Full DAX for the calculated columns is available in:
+
+`/dax/calendar.dax`
+_______________________________________________________________________________________________________________________________
+
+## 📁 **Folder Structure**
 
 Code
 Project-1-Product-Profitability/
@@ -108,13 +116,13 @@ Project-1-Product-Profitability/
     └── data-dictionary.md
 ______________________________________________________________________________________________________________________________________
     
-🖼️ Report Screenshots
+## 🖼️ **Report Screenshots**
 
 Add screenshots of your Power BI report here:
 ______________________________________________________________________________________________________________________________________
 
 
-🔧 How to Reproduce This Project
+## 🔧 **How to Reproduce This Project**
 
 Download the .pbix file (if included)
 
@@ -127,7 +135,7 @@ Open the report in Power BI Desktop
 Refresh the model (if using local data)
 ______________________________________________________________________________________________________________________________________
 
-📝 Technologies Used
+## 📝 **Technologies Used**
 
 Power BI Desktop
 
@@ -140,7 +148,7 @@ Star Schema Modeling
 Data Visualization & Storytelling
 ______________________________________________________________________________________________________________________________________
 
-👤 Author
+## 👤 **Author**
 
 Erin Wheatley 
 
