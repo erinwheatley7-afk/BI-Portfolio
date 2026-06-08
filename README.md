@@ -1,7 +1,7 @@
 ## 📊 **Erin Wheatley — Business Intelligence Portfolio**
 
 Welcome to my BI portfolio.
-I specialize in transforming raw data into clear, actionable insights using Power BI, SQL, DAX, and modern data modeling practices.
+I specialize in transforming raw data into clear, actionable insights using Power BI, SQL, DAX, and modern data modeling practices.  I'm also actively widening my skill set to include dbt and Snowflake.
 
 This portfolio showcases my end‑to‑end analytics workflow.
 
