@@ -100,7 +100,7 @@ Performance by online, reseller, and in‑store channels.
 ---
 
 ## 📁 **Folder Structure**
-
+```text
 AdventureWorks-Dashboard/
 │
 ├── README.md
@@ -135,7 +135,7 @@ AdventureWorks-Dashboard/
 ├── business-logic.md
 ├── metric-definitions.md
 └── project-architecture.md
-
+```
 
 ---
 
