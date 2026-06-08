@@ -1,153 +1,114 @@
-## 📊 **Erin Wheatley — Business Intelligence Portfolio**
+# 📁 **Business Intelligence Portfolio**
 
-Welcome to my BI portfolio.
-I specialize in transforming raw data into clear, actionable insights using Power BI, SQL, DAX, and modern data modeling practices.  I'm also actively widening my skill set to include dbt and Snowflake.
+Welcome to my BI portfolio — a collection of end‑to‑end analytics projects demonstrating my skills in **Power BI**, **SQL**, **DAX**, **data modeling**, and **dashboard design**.
 
-This portfolio showcases my end‑to‑end analytics workflow.
+Each project follows professional BI development practices, including:
 
-Highlights:
+- Star schema modeling  
+- Reusable semantic models  
+- Documented DAX measures  
+- SQL validation logic  
+- Clean, organized GitHub folder structures  
+- Screenshots demonstrating slicers, drill‑downs, and interactions  
+- PBIX files for full transparency  
 
-Built a star schema from transactional sales data
+---
 
-Created core profitability measures (Gross Profit, Margin %, AOV)
+## 📊 **Featured Project**
 
-Identified high‑margin product categories
+### **AdventureWorks Sales Dashboard**  
+A complete BI solution built on the AdventureWorks dataset, featuring:
 
-Delivered insights for pricing and inventory strategy
+- 5 report pages (Sales Overview, Sales Trends, Product Profitability, Margin Analysis, Sales Channel Analysis)  
+- A unified star schema  
+- Reusable DAX measures  
+- SQL validation queries  
+- A fully documented semantic model  
+- Organized screenshot folders showing slicer and drill‑down behavior  
 
-Power BI
+📂 **Project Folder:**  
+`/AdventureWorks-Sales-Dashboard/`
 
-SQL
+📄 **README:**  
+See the project folder for full documentation, screenshots, and PBIX file.
 
-Data Modeling
+---
 
-DAX
+## 🧱 **Skills Demonstrated Across Projects**
 
-Data Visualization
+### **Power BI**
+- Data modeling (star schema, snowflake, role‑playing dimensions)  
+- DAX (time intelligence, profitability metrics, dynamic ranking)  
+- Report design & UX  
+- Semantic model creation  
+- Power Query (M) transformations  
 
-Business Analysis
+### **SQL**
+- Joins, aggregations, CTEs  
+- Data validation queries  
+- Metric logic verification  
+- Dimensional modeling support  
 
-Each project demonstrates real‑world BI skills including star schema design, metric creation, data storytelling, and analytical problem‑solving.
-________________________________________________________________________________________________________________________________________
-## 🚀 **Featured Projects**
+### **Data Modeling**
+- Fact/dimension schema design  
+- Calendar tables with fiscal logic  
+- Relationship management  
+- Grain definition & business logic alignment  
 
-1. Product Profitability Analysis (Power BI)
+### **Analytics & Storytelling**
+- KPI design  
+- Trend analysis  
+- Profitability & margin insights  
+- Channel performance  
+- Executive‑ready dashboards  
 
-A full Power BI report analyzing:
+---
 
-Revenue (before & after discount)
-
-Gross Profit
-
-Margin %
-
-Margin Erosion
-
-AOV (Average Order Value)
-
-MoM performance
-
-Product‑level profitability
-
-Includes:
-
-Star schema
-
-Clean DAX measures
-
-Business logic documentation
-
-Report screenshots:
-
-📁 Folder: Project-1-Product-Profitability/
-______________________________________________________________________________________________________________________________________
-
-## 🧠 **Skills & Tools**
-
-### **Business Intelligence**
-
-Power BI Desktop
-
-DAX
-
-Power Query
-
-Data Modeling (Star Schema)
-
-KPI & Metric Design
-
-Data Storytelling
-
-### **Data**
-
-SQL (CTEs, joins, aggregations)
-
-Data cleaning & transformation
-
-Dimensional modeling
-
-### **Technical**
-
-Git & GitHub
-
-Markdown documentation
-
-Version control
-
-Dashboard design principles
-_____________________________________________________________________________________________________________________________________________
-
-📁 Repository Structure
-Code
+## 📁 **Repository Structure**
+```text
 BI-Portfolio/
 │
-├── README.md                     ← Portfolio homepage (this file)
-│
-├── Project-1-Product-Profitability/
-│   ├── README.md                 ← Project documentation
-│   ├── MEASURES.md               ← Full DAX documentation
-│   ├── dax/
-│   ├── model/
+├── AdventureWorks-Dashboard/
+│   ├── README.md
 │   ├── report/
+│   ├── model/
+│   ├── dax/
+│   ├── sql/
 │   └── notes/
 │
-└── (Future projects will be added here)
-_________________________________________________________________________________________________________________________________________________
+└── (Additional BI projects will be added here)
+```
 
-## 🎯 **What This Portfolio Demonstrates**
+This structure mirrors real BI team repositories, with each project self‑contained and fully documented.
 
-Ability to design and build complete BI solutions
+---
 
-Clean, reusable DAX measures
+## 🧭 **How to Navigate This Portfolio**
 
-Strong understanding of business metrics
+- Open any project folder to view its README  
+- Review screenshots to see report behavior  
+- Download PBIX files to explore the models  
+- Browse SQL and DAX folders for metric logic  
+- Read notes for business rules and architecture  
 
-Clear documentation and communication
-
-Professional GitHub project structure
-
-End‑to‑end analytical thinking
-_________________________________________________________________________________________________________________________________
+---
 
 ## 👤 **About Me**
 
-I’m Erin Wheatley — a Business Intelligence Analyst with experience in:
+**Erin Wheatley**  
+Business Intelligence Analyst specializing in:
 
-Data modeling
+- Power BI & semantic modeling  
+- SQL analytics  
+- DAX measure design  
+- Data modeling  
+- Dashboard development  
+- End‑to‑end BI solutions  
 
-Dashboard development
-
-SQL & DAX
-
-Analytical problem‑solving
-
-Turning messy data into clear insights
-
-I’m currently building a polished BI portfolio to re‑enter the workforce and showcase my technical and analytical strengths.
-
+---
 
 ## 📬 **Contact**
 
-LinkedIn: https://www.linkedin.com/in/erinwheatley/
-
-Email: erinwheatley7@gmail.com
+- **GitHub:** https://github.com/erinwheatley7-afk/BI-Portfolio/
+- **LinkedIn:** https://www.linkedin.com/in/erinwheatley/
+- **Email:** erinwheatley7@gmail.com
