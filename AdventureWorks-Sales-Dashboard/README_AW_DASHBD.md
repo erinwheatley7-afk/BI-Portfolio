@@ -152,6 +152,6 @@ Business Intelligence Analyst specializing in:
 ---
 
 ## 📬 **Contact**
-- **GitHub:** *your link here*  
-- **LinkedIn:** *your link here*  
-- **Email:** *your email here*  
+- **GitHub:** https://github.com/erinwheatley7-afk/
+- **LinkedIn:** https://www.linkedin.com/in/erinwheatley/  
+- **Email:** erinwheatley7@gmail.com
