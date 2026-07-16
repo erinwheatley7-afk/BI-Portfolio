@@ -1,0 +1,6 @@
+SELECT device.category, count(*) as sessions
+
+FROM `bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*`
+WHERE _TABLE_SUFFIX BETWEEN '20201101' AND '20210131'
+GROUP BY device.category
+ORDER BY device.category desc
